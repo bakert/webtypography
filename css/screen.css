@@ -94,6 +94,7 @@ img {
 }
 
 #main h1, #main h2, #main p, #main pre, #main ul, #main ol, #main dl, #supp ul, #supp h3, #supp ol, #supp p, form, .example, #supp #deck {
+	max-width: 66ch;
 	padding: 0 11.8%;
 }
 
