@@ -14,7 +14,7 @@ return array(
         '3.1' => 'Size',
         '3.2' => 'Numerals, Capitals & Small Caps',
     ),
- 
+
     'items' => array(
 	    '2.1.1' => "Define the word space to suit the size and natural letterfit of the font",
 	    '2.1.2' => "Choose a comfortable measure",
@@ -39,8 +39,8 @@ return array(
 		'2.4.8' => "Never begin a page with the last line of a multi-line paragraph",
 		'3.1.1' => "Don’t compose without a scale",
 		'3.2.1' => "Use titling figures with full caps, and text figures in all other circumstances",
-    '3.2.2' => "For abbreviations and acronyms in the midst of normal text, use spaced small caps",
-
+		'3.2.2' => "For abbreviations and acronyms in the midst of normal text, use spaced small caps",
+		'3.2.3' => "Refer typographic disputes to the higher courts of speech and thinking",
     )
 );
 
