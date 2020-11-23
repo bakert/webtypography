@@ -2,6 +2,7 @@ RewriteEngine on
 RewriteBase /
 
 Options +MultiViews
+AddType application/x-httpd-php .php
 
 RewriteCond %{HTTP_HOST} ^www\.webtypography\.net$
 RewriteRule (.*) http://webtypography.net/$1 [R=Permanent]

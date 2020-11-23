@@ -11,6 +11,8 @@ The markup still holds up but you might consider the CSS to be a bit... 2005. Th
 
 The site runs on PHP and probably requires PHP 5 to be safe (although I suspect PHP 4 will work just fine too). That's all really. Just download the zip into a folder and set yourself up with a virtual host and you're away. If you want the webfonts to work, you'll need to use the domain "webtypography.dev" as your virtual hostname.
 
+The expectation is that the site will be served by Apache or something that understansd the .htaccess file in the root. This requires mod_rewrite and mod_negotiation to be enabled in order to route requests appropriately.
+
 ## Adding new items
 
 The site builds upon the individual guidelines written in Bringhurst's book. To add a new guideline, you should add an entry in the PHP array in `/includes/data.inc.php` and then create an HTML file with the main content in the `/items` folder.
